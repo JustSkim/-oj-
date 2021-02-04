@@ -7,6 +7,17 @@
 #include<algorithm>
 using namespace std;
 int main(){
+	/*
+	Input
+The first line of the input contains an integer T(1<=T<=20) which means the number of test cases. Then T lines follow, each line consists of two positive integers, A and B. Notice that the integers are very large, that means you should not process them by using 32-bit integer. You may assume the length of each integer will not exceed 1000.
+ 输入的第一行包含一个整数T（1 <= T <= 20），它表示测试用例的数量。然后是T行，每行由两个正整数A和B组成。请注意，整数非常大，这意味着您不应使用32位整数来处理它们。您可以假设每个整数的长度不超过1000。
+
+
+Output
+For each test case, you should output two lines. The first line is "Case #:", # means the number of the test case. The second line is the an equation "A + B = Sum", Sum means the result of A + B. Note there are some spaces int the equation. Output a blank line between two test cases.
+对于每个测试用例，您应该输出两行。第一行是“ Case＃：”，＃表示测试用例的编号。第二行是等式“ A + B = Sum”，Sum表示A + B的结果。请注意，该等式中有一些空格。在两个测试用例之间输出空白行。
+	
+	*/ 
 	//杭电OJ平台要求必须先声明所有变量，再逐一赋值，否则报编译错误Complication Error， 
 	int case_num;
 	string a,b;
